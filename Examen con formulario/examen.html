@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./soluciones.html">
+    <script src="https://kit.fontawesome.com/4371c2a724.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <title>Examen</title>
+</head>
+
+<body class="pagexam">
+    <header class="header">
+        <div class="justimage">
+        <img class="imagenlogo" src="./IMG/veterinari.png" alt="http://127.0.0.1:5500/index.html">
+    </div>
+        <a href="http://127.0.0.1:5500/index.html">Inicio <i class="fas fa-home"></i></a>
+        <a href="http://127.0.0.1:5500/examen.html">Examen <i class="fas fa-pen"></i></a>
+        <a href="http://127.0.0.1:5500/soluciones.html">Soluciones <i class="fas fa-file-alt"> </i></a>
+    </header>
+
+    <form action="http://www.learningwebdesign.com/context.php" method="POST">
+        <h2>Pregunta 1</h2>
+        <p> ¿Cual es el pajaro que pone los huevos mas pequeños?</p> <input type="text" name="animal" placeholder="Pon aquí tu respuesta">
+        <hr>
+        <h2>Pregunta 2</h2>
+        <div class="q5 q8">
+            <p>¿Cual es el pez mas grande del mundo? ( Solo puedes elegir una opción. )</p>
+            <input type="radio" name="color" value="ballena">Ballena
+            <input type="radio" name="color" value="tiburon">Tiburon Ballena
+            <input type="radio" name="color" value="sardina">Sardina
+            <input type="radio" name="color" value="salmon">Salmon
+        </div>
+        <hr>
+        <h2>Pregunta 3</h2>
+        <p>¿Que hace un canguro para mantener su bolsa limpia?</p>
+        <textarea name="story" id="old" cols="60" rows="4" maxlength="300" placeholder="No más de 300 palabras"></textarea>
+        <hr>
+        <h2>Pregunta 4</h2>
+        <p>¿Cual es la velocidad maxima de un GUEPARDO?</p>
+        <select name="size">
+            <option>Hasta 110km/h</option>
+            <option selected>Hasta 20km/h</option>
+            <option>78</option>
+            <option>98</option>
+            <option>12</option>
+        </select>
+        <hr>
+        <h2>Pregunta 5</h2>
+        <p>¿Que animales cantan de noche? ( Escoje todas las respuestas posibles. )</p>
+        <div class="q5 q8">
+            <input type="checkbox" name="features[]" value="Sparkley">Mirlo
+            <input type="checkbox" name="color" value="metallic" checked>Gallo
+            <input type="checkbox" name="color" value="MP3">Colibri
+            <input type="checkbox" name="color" value="MP3">Ruiseñor
+        </div>
+        <hr>
+        <h2>Pregunta 6</h2>
+        <div class="form-group">
+            <label for="formControlRange">¿Te gustan los animales?</label>
+            <input type="range" class="form-control-range" id="formControlRange">
+        </div>
+        <h2>Pregunta 7</h2>
+        <p> ¿Es cierto el mito de que las mariposas ya no pueden volar cuando pierden ese polvo de las alas?</p> <input type="text" name="animal" placeholder="Si o no.">
+        <hr>
+        <h2>Pregunta 8</h2>
+
+        <p>¿ Como se llama el insecto de esta imagen ?</p>
+
+        <img src="/IMG/anim2.jpg" alt="">
+        <br>
+        <div class="q5 q8">
+            <input type="radio" name="color" value="ballena">Avispa Titán
+            <input type="radio" name="color" value="tiburon">Avispa Weta
+            <input type="radio" name="color" value="sardina">Avispa Caza Tarántulas
+        </div>
+        <hr>
+        <h2>Pregunta 9</h2>
+        <p>¿Qué animal tiene la capacidad de cambiar de género varias veces durante su vida? ( Solo una respuesta )</p>
+        <div class="q5 q8">
+            <input type="checkbox" name="features[]" value="Sparkley">Caballito de mar
+            <input type="checkbox" name="color" value="metallic" checked>Las babosas
+            <input type="checkbox" name="color" value="MP3">Las ostras
+        </div>
+        <h2>Pregunta 10</h2>
+        <p>¿Cual es el animal más pequeño del mundo?</p>
+        <select name="size">
+            <option>Leon</option>
+            <option>Escarabajo</option>
+            <option>Hormiga</option>
+            <option>Elefante</option>
+            <option>Mariposa</option>
+        </select>
+
+    </form>
+    <div class="boton">
+        <a href="http://127.0.0.1:5500/soluciones.html" class="myButton">Ver respuestas</a>
+    </div>
+
+</body>
+
+</html>
